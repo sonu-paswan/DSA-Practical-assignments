@@ -138,22 +138,22 @@ struct Queue *Reversequeue(struct Queue *Q, int len)
 }
 int main()
 {
-    int len = 4;
+    int len = 5;
     struct Queue *queue = create(len);
-
+    append(queue, 33);
     append(queue, 10);
     append(queue, 20);
     append(queue, 30);
     append(queue, 40);
 
-    printf("Front item is %d\n", front(queue));
-    printf("Rear item is %d\n", rear(queue));
-
+    printf("Front element is %d\n", front(queue));
+    printf("Rear element is %d\n", rear(queue));
+    printf("another queue with reverse order of above queue\n");
     struct Queue *queue2 = Reversequeue(queue, len);
 
-    printf("%d is remove from queue\n", Remove(queue2));
-    printf("Front item is %d\n", front(queue2));
-    printf("Rear item is %d\n", rear(queue2));
+    // printf("%d is remove from queue\n", Remove(queue2));
+    printf("Front element is %d\n", front(queue2));
+    printf("Rear element is %d\n", rear(queue2));
 
     return 0;
 }
