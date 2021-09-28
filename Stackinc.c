@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
+//stack operation using c language
+// 27/09/21
+//stack structure
 struct Stack
 {
     int size;
     int top;
     int *arr;
 };
-void CreateStack(struct Stack *S, int len)
+void CreateStack(struct Stack *S, int len) //stack create
 {
     S->size = len;
     S->top = -1;
@@ -17,7 +20,7 @@ int isEmpty(struct Stack *S)
 {
     return S->top == -1;
 }
-void push(struct Stack *S, int data)
+void push(struct Stack *S, int data) // stack push
 {
     if (S->top >= S->size - 1)
     {
@@ -28,7 +31,7 @@ void push(struct Stack *S, int data)
     S->arr[S->top] = data;
     printf("%d is pushed\n", data);
 }
-int pop(struct Stack *S)
+int pop(struct Stack *S)  // stack pop
 {
     int x = INT_MIN;
     if (isEmpty(S))
