@@ -1,3 +1,4 @@
+//Bhai hamko bhi sika do :)
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
