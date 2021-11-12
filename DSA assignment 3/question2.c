@@ -1,5 +1,6 @@
 #include <stdio.h>
 // sparse matrix multiplication
+// for 3X3 matrix
 int main()
 {
     int A[10][10], B[10][10], mul[10][10];
