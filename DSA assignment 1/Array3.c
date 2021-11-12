@@ -23,3 +23,6 @@ int main()
 
     return 0;
 }
+
+/*question
+3.Write a c program to copy the element of one array into another array.*/
