@@ -95,3 +95,4 @@ int main(){
     printPoly(head3);
     return 0;
 }
+/*Question no. 2) Program to show polynomial multiplication*/
