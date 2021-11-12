@@ -157,3 +157,8 @@ int main()
 
     return 0;
 }
+/*
+Q: The Queue has operations create, append, front, remove, and is Empty. A Queue contains a sequence of integers. 
+Design an algorithm to construct another queue containing the same integers but in reverse order. 
+The only queue operations available to you are those listed above.
+*/
