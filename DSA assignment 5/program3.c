@@ -34,3 +34,5 @@ int main()
 
     return 0;
 }
+/*question
+ 3) insertion sort*/
