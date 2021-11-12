@@ -43,3 +43,10 @@ int main()
     Duplicate(arr, size);
     return 0;
 }
+
+/*question
+2.Write a c program to print the entire unique element in an array.
+I.Print the duplicate element from the array.
+II.Print sum of all element of an array.
+III.Print the average of all elements.
+*/
