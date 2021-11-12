@@ -66,3 +66,11 @@ int main()
     PrintArray(arr, length);
     return 0;
 }
+
+/*question
+1.Write a c program to store elements in an array and display it.
+I.Print the array elements in reverse order.
+II.Print the array element in ascending order.
+III.To delete the element from the array.
+
+*/
