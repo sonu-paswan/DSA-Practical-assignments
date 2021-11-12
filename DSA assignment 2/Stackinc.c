@@ -59,3 +59,4 @@ int main()
     }
     return 0;
 }
+/*Q: Write a C program to create a stack of size 10 using an array. Use PUSH operation until the stack is full, and then make the stack empty using POP operation.*/
