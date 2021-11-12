@@ -33,14 +33,7 @@ struct Node *insertPoly(struct Node *p, int coef, int exp) // insert function to
     newNode->next = NULL;
     if (p == NULL || exp >= p->expo)
     {
-        if (p != NULL)
-        {
-            if (p->expo == exp)
-            {
-                p->data += coef;
-                return p;
-            }
-        }
+       
         newNode->next = p;
         p = newNode;
     }
@@ -49,12 +42,7 @@ struct Node *insertPoly(struct Node *p, int coef, int exp) // insert function to
         struct Node *temp = p;
         while (temp->next != NULL && temp->next->expo >= exp)
         {
-            if (temp->next->expo == exp)
-            {
-                int sum = temp->next->data + coef;
-                temp->next->data = sum;
-                return p;
-            }
+            
             temp = temp->next;
         }
         newNode->next = temp->next;
