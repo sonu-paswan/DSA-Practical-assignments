@@ -1,4 +1,4 @@
-//  program to multiply two matrix using linked list 
+//  program to multiply two poylnomial using linked list 
 // application of linked list
 // 30/10/2021
 #include <stdio.h>
