@@ -33,6 +33,7 @@ void Duplicate(int A[], int len)
         if (flag == 1)
             printf("%d ", a);
     }
+    // time complexity -> O(n^2)
 }
 int main()
 {
